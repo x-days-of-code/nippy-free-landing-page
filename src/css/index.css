@@ -1,0 +1,15 @@
+@import url("../../node_modules/reset.css/reset.css");
+
+@import url("./constants.css");
+
+html,
+body {
+  background-color: var(--main-bg);
+  color: var(--main-font-color);
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* blocks */
+@import url("./main/main.css");
