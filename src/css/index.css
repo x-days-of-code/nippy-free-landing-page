@@ -4,15 +4,19 @@
 
 html,
 body {
-  background-color: var(--main-bg);
-  color: var(--main-font-color);
+  background-color: var(--background-main);
+  color: var(--color-main);
   height: 100%;
   font-size: 14px;
   line-height: 24px;
   font-style: normal;
   font-weight: 300;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: var(--font-family-main);
 }
 
 /* blocks */
+@import url("./inner/inner.css");
+@import url("./title/title.css");
 @import url("./header/header.css");
+@import url("./about-us/about-us.css");
+@import url("./products/products.css");
