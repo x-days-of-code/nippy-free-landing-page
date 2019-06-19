@@ -10,20 +10,22 @@
 }
 
 .subscribe__content {
-  width: 50%;
-  padding: 106px 134px 177px 117px;
+  width: 720px;
+  box-sizing: border-box;
+  padding: 106px 134px 177px 113px;
 }
 
 .subscribe__title {
-  margin: 0 0 47px;
+  margin: 0 0 47px 5px;
 }
 
 .subscribe__subtitle {
-  margin: 0 0 32px;
+  margin: 0 0 32px 5px;
 }
 
 .subscribe__text {
-  margin: 0 0 50px;
+  margin: 32px 0 50px 5px;
+  letter-spacing: 0.3px;
 }
 
 .subscribe__form {
@@ -35,7 +37,7 @@
 
 .subscribe__submit {
   flex-grow: 1;
-  padding: 18px 44px;
+  padding: 18px 32px;
   border-radius: 0 100px 100px 0;
   background-color: var(--color-accent);
   color: #fff;

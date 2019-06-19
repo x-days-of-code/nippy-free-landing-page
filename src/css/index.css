@@ -17,6 +17,7 @@ body {
 /* blocks */
 @import url("./inner/inner.css");
 @import url("./title/title.css");
+@import url("./subtitle/subtitle.css");
 @import url("./header/header.css");
 @import url("./about-us/about-us.css");
 @import url("./products/products.css");
@@ -25,3 +26,4 @@ body {
 @import url("./subscribe/subscribe.css");
 @import url("./partners/partners.css");
 @import url("./footer/footer.css");
+@import url("./social/social.css");
