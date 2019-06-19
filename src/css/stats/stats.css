@@ -1,0 +1,7 @@
+.stats {
+  background-color: var(--background-dark);
+}
+
+.stats__inner {
+  padding: 107px 0 133px;
+}

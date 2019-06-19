@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/poalrom/static-frontend-boilerplate#readme",
   "dependencies": {
+    "list": "^2.0.18",
     "reset.css": "2.0.2"
   },
   "devDependencies": {

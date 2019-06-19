@@ -6,11 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nippy</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Open+Sans:300,400|Playfair+Display:400,400i&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,700|Open+Sans:300,400,600|Playfair+Display:400,400i&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/index.css" />
@@ -19,7 +15,9 @@
     <header class="header">
       <div class="header__inner inner">
         <nav class="header__nav">
-          <img src="image/Nippy.svg" width="135" height="29" alt="logo" />
+          <div class="header__logo logo">
+            <img src="image/Nippy.svg" width="135" height="29" alt="logo" />
+          </div>
 
           <ul class="header__nav-list">
             <li><a class="header__nav-link" href="#">About Us</a></li>
@@ -89,58 +87,203 @@
           <a href="#" class="products__view-next">View&nbsp;more&nbsp;&rarr;</a>
         </div>
         <div class="products__preview">
-          <div class="products__preview-intro">
+          <div
+            class="products__preview-thumbnail products__preview-thumbnail_l"
+          >
             <img src="" alt="" />
-            <p class="products__preview">
+            <p class="products__preview-description">
               <b class="products__preview-name">LeParcel</b>
-              <span class="currency">&#36;</span
-              ><span class="products__preview-price">68.00</span>
+              <span class="products__preview-price">&#36;68.00</span>
             </p>
           </div>
-          <ul class="products__preview-thumbnail">
-            <li class="products__preview-thumbnail-item">
+          <ul class="products__preview-thumbnail-list">
+            <li
+              class="products__preview-thumbnail products__preview-thumbnail_s"
+            >
               <img src="" alt="" />
-              <p class="products__preview">
+              <p class="products__preview-description">
                 <a class="products__preview-name" href="#"><b>Koo Koo</b></a>
-                <span class="currency">&#36;</span
-                ><span class="products__preview-price">68.00</span>
+                <span class="products__preview-price">&#36;68.00</span>
               </p>
             </li>
-            <li class="products__preview-thumbnail-item">
+            <li
+              class="products__preview-thumbnail products__preview-thumbnail_s"
+            >
               <img src="" alt="" />
-              <p class="products__preview">
+              <p class="products__preview-description">
                 <a class="products__preview-name" href="#"><b>Scoop</b></a>
-                <span class="currency">&#36;</span
-                ><span class="products__preview-price">68.00</span>
+                <span class="products__preview-price">&#36;68.00</span>
               </p>
             </li>
-            <li class="products__preview-thumbnail-item">
+            <li
+              class="products__preview-thumbnail products__preview-thumbnail_s"
+            >
               <img src="" alt="" />
-              <p class="products__preview">
+              <p class="products__preview-description">
                 <a class="products__preview-name" href="#"
                   ><b>Headphones Headset</b></a
                 >
-                <span class="currency">&#36;</span
-                ><span class="products__preview-price">68.00</span>
+                <span class="products__preview-price">&#36;68.00</span>
               </p>
             </li>
-            <li class="products__preview-thumbnail-item">
+            <li
+              class="products__preview-thumbnail products__preview-thumbnail_s"
+            >
               <img src="" alt="" />
-              <p class="products__preview">
+              <p class="products__preview-description">
                 <a class="products__preview-name" href="#"
                   ><b>Maria / Maleta alba ocaso backpack</b></a
                 >
-                <span class="currency">&#36;</span
-                ><span class="products__preview-price">68.00</span>
+                <span class="products__preview-price">&#36;68.00</span>
               </p>
             </li>
           </ul>
         </div>
       </div>
     </section>
-    <section class="stats"></section>
-    <section class="subscribe"></section>
-    <section class="partners"></section>
-    <footer class="footer"></footer>
+    <section class="stats">
+      <div class="inner stats__inner">
+        <ul class="stats__list">
+          <li class="stats__list-item">
+            <p class="stats__list-item-title">Projects Completed</p>
+            <strong class="stats__list-item-count">285</strong>
+          </li>
+          <li class="stats__list-item">
+            <p class="stats__list-item-title">Happy Customers</p>
+            <strong class="stats__list-item-count">200</strong>
+          </li>
+          <li class="stats__list-item">
+            <p class="stats__list-item-title">Award Winning</p>
+            <strong class="stats__list-item-count">42</strong>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__inner inner">
+        <img class="subscribe__image" src="#" alt="#" />
+        <div class="subscribe__content">
+          <h2 class="subscribe__title title">Stay in touch</h2>
+          <b class="subscribe__subtitle subtitle"
+            >Subscribe for our monthly roundup of great free resources and
+            updates.</b
+          >
+          <p class="subscribe__text">
+            Excepturi fugiat a neque perspiciatis dicta, repudiandae dolorum.
+            Corporis, accusantium, at! Numquam ad praesentium blanditiis,
+            recusandae aliquam perferendis molestiae eaque
+          </p>
+          <form action="/echo" class="subscribe__form">
+            <input
+              type="text"
+              class="subscribe__input"
+              placeholder="Email Address"
+            />
+            <button class="subscribe__submit">Sent</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="partners__inner inner">
+        <ul class="partners__list">
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/BBC.png" alt="BBC logo" />
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/Netflix.png" alt="Netflix logo" />
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/Forbes.png" alt="Forbes logo" />
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/Mashable.png" alt="Mashable logo" />
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/lifehacker.png" alt="LifeHacker logo" />
+            </a>
+          </li>
+          <li class="partners__item">
+            <a href="#" class="partners__link">
+              <img src="./picture/BuzzFeed.png" alt="BuzzFeed logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__item">
+          <div class="footer__logo logo">
+            <img src="image/Nippy.svg" width="135" height="29" alt="logo" />
+          </div>
+        </div>
+        <div class="footer__item">
+          <p>Mese Selimovica, 52 78000, Banja Luka BiH</p>
+        </div>
+        <div class="footer__item">
+          <a href="tel:+387 065 252 552">
+            +387 065 252 552
+          </a>
+          <a href="mailto:email@example.com">email@example.com</a>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__social social">
+            <li class="social__item">
+              <a href="" class="social__link"
+                ><img
+                  src="./icons/facebook.svg"
+                  alt="facebook"
+                  class="social__icon"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link"
+                ><img
+                  src="./icons/twitter.svg"
+                  alt="twitter"
+                  class="social__icon"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link"
+                ><img
+                  src="./icons/dribbble.svg"
+                  alt="dribbble"
+                  class="social__icon"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link"
+                ><img
+                  src="./icons/instagram.svg"
+                  alt="instagram"
+                  class="social__icon"
+              /></a>
+            </li>
+            <li class="social__item">
+              <a href="" class="social__link"
+                ><img
+                  src="./icons/linkedin.svg"
+                  alt="linkedin"
+                  class="social__icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright inner">
+        2016 © Nippy Studio. All rights reserved
+      </div>
+    </footer>
   </body>
 </html>

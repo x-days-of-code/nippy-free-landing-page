@@ -20,3 +20,8 @@ body {
 @import url("./header/header.css");
 @import url("./about-us/about-us.css");
 @import url("./products/products.css");
+@import url("./stats/stats.css");
+@import url("./stats/list/stats__list.css");
+@import url("./subscribe/subscribe.css");
+@import url("./partners/partners.css");
+@import url("./footer/footer.css");
