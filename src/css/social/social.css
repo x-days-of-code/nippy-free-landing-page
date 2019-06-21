@@ -1,0 +1,8 @@
+.social {
+  justify-content: flex-end;
+}
+
+.social__item {
+  width: 16px;
+  margin-left: 23px;
+}

@@ -4,12 +4,27 @@
 
 html,
 body {
-  background-color: var(--main-bg);
-  color: var(--main-font-color);
+  background-color: var(--background-main);
+  color: var(--color-main);
   height: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 300;
+  font-family: var(--font-family-main);
 }
 
 /* blocks */
-@import url("./main/main.css");
+@import url("./inner/inner.css");
+@import url("./title/title.css");
+@import url("./subtitle/subtitle.css");
+@import url("./header/header.css");
+@import url("./about-us/about-us.css");
+@import url("./products/products.css");
+@import url("./stats/stats.css");
+@import url("./stats/list/stats__list.css");
+@import url("./subscribe/subscribe.css");
+@import url("./partners/partners.css");
+@import url("./footer/footer.css");
+@import url("./social/social.css");
+@import url("./interactive/interactive.css");

@@ -1,4 +1,15 @@
 * {
-  --main-bg: #000;
-  --main-font-color: #fff;
+  --background-main: #fff;
+  --color-main: #666666;
+  --secondary-font-color: #ffffff;
+  --color-dark: #1d1d1d;
+  --color-accent: #1006ff;
+  --background-light: #f3f7f8;
+  --background-dark: #1d1d1d;
+  --background-secondary: #f4f4f4;
+  --gap: 30px;
+
+  --font-family-title: Montserrat, Tahoma, sans-serif;
+  --font-family-subtitle: "Playfair Display", "Times New Roman", serif;
+  --font-family-main: "Open Sans", Arial, sans-serif;
 }

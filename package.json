@@ -1,17 +1,17 @@
 {
-  "name": "static-frontend-boilerplate",
+  "name": "nippy-free-landing-page",
   "version": "1.0.0",
-  "description": "Boilerplate for html and css",
+  "description": "html and css",
   "main": "index.js",
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --pattern=\"src/**/*.*\""
     }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "rm -r dev || true && parcel src/index.html --out-dir dev",
-    "build": "rm -r public || true && parcel build src/index.html --out-dir public"
+    "build": "rm -r docs || true && parcel build src/index.html --out-dir docs"
   },
   "repository": {
     "type": "git",
@@ -23,13 +23,14 @@
     "boilerplate",
     "css-boilerplate"
   ],
-  "author": "Alex Popkov",
+  "author": "Alena Siprikova",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/poalrom/static-frontend-boilerplate/issues"
+    "url": "https://github.com/x-days-of-code/nippy-free-landing-page.git"
   },
-  "homepage": "https://github.com/poalrom/static-frontend-boilerplate#readme",
+  "homepage": "https://github.com/x-days-of-code/nippy-free-landing-page.git#readme",
   "dependencies": {
+    "list": "^2.0.18",
     "reset.css": "2.0.2"
   },
   "devDependencies": {

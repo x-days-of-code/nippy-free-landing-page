@@ -1,12 +1,3 @@
-# Boilerplate for static site
+# Nippy free landing page
 
-## Features
-
-- No React/Angular/Vue/_other heavy framework_ 🏋️
-- Only pure css and html 🌈
-- Fast production build included ⚡️
-- Zero configurable tools 🔧
-- BEM file structure example included 📦
-- Prettier file formatting as pre-commit hook 🎊
-
-**Feel free to use in your projects!**
+[Figma](https://www.figma.com/file/NGVA8oV2DaNEhAh3eYH179WN/nippy?node-id=0%3A9)

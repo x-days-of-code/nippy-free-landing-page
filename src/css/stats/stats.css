@@ -1,0 +1,15 @@
+.stats {
+  background-color: var(--background-dark);
+}
+
+.stats__inner {
+  padding: 107px 0 132px;
+}
+
+.stats__list-item {
+  width: 30%;
+}
+
+.stats__list-item-title {
+  margin-bottom: 10px;
+}
